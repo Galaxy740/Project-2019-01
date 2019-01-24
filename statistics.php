@@ -30,14 +30,16 @@
         </ul>
     </div>
     <marquee class="ScrollText">˅˅˅˅˅˅˅˅˅ Choose your fighters and see statistic ˅˅˅˅˅˅˅˅˅</marquee>
+    <div>
+        <form action="#" method="post">
 
-    <form action="#" method="post">
+                <input type="text" name="fighter_1" placeholder="first fighter">
+                <input type="text" name="fighter_2" placeholder="second fighter">
+                <input type="text" name="fighter_3" placeholder="third fighter">
+                <input type="submit" value="Show complete statistic">
 
-            <input type="text" name="fighter_1" placeholder="first fighter">
-            <input type="text" name="fighter_2" placeholder="second fighter">
-            <input type="text" name="fighter_3" placeholder="third fighter">
-            <input type="submit" value="Show complete statistic">
-            <span class="select">
+        </form>
+        <span class="select">
                 <?php
                 $choise_fighters = [
                     'apprentice' => 'a',
@@ -45,16 +47,14 @@
                     'guardian' => 'g',
                 ];
                 foreach ($choise_fighters as $x => $y) {
-                    echo "$x == $y,\n";
+                    echo "$x == $y,";
 
                 }
 
                 ?>
             </span>
-        </form>
 
-
-
+    </div>
 
 	<?php
 

@@ -15,8 +15,7 @@ h1{
 
 }
 ul {
-  position: sticky;
-  position: -webkit-sticky;
+
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -44,12 +43,12 @@ li a:hover {
 }
 
 .active {
-  background-color: #f06;
+  background-color: #f12;
 }
 .ScrollText{
 	font-size: 35px;
 	color: white;
-	border-bottom: 3px solid #f06;
+	border-bottom: 3px solid ;
 }
 .header{
 	color: white;
@@ -66,7 +65,7 @@ a{
 	
 
 	text-decoration: none;
-	color:#ff0066; 
+	color:#f12;
 }
 #sHeading{
 	padding-left: 10%;
@@ -77,7 +76,7 @@ a{
 .select{
 	text-align: right;
     color: rgba(255, 255, 255, 0.8);
-
+    padding-right: 7em;
     font-size: 35px;
 
 }
