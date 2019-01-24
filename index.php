@@ -17,7 +17,7 @@
 	</span>
 <a href="index.php">
   	<h1 class="heading">
-  		<img id="logo" src="style/logo.jpg">
+  		<img id="logo" src="style/logo.jpg" alt="logo">
   			Champion club
 	</h1>
  </a>
@@ -31,7 +31,10 @@
 		  
 	</ul>
 </div>
-<marquee class="ScrollText">Ad space // Ad space || Ad space \\ Ad space</marquee>
+<div class="scroll-left">
+    <p>Welcome to the fight club</p>
+</div>
+
 	
 
 </body>
