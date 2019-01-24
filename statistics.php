@@ -50,7 +50,7 @@
                     'guardian' => 'g',
                 ];
                 foreach ($choise_fighters as $x => $y) {
-                    echo "$x == $y,";
+                    echo "$x == $y,\n";
 
                 }
 
@@ -158,8 +158,8 @@
         masterVsFighters($fighters, $master_atributes);
 
 
-
     }
     ?>
+
 </body>
 </html>
