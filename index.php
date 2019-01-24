@@ -31,9 +31,7 @@
 		  
 	</ul>
 </div>
-<div class="scroll-left">
-    <p>Welcome to the fight club</p>
-</div>
+
 
 	
 

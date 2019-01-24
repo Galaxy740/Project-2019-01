@@ -29,9 +29,7 @@
 
         </ul>
     </div>
-    <div class="scroll-left">
-        <p>˅˅˅˅˅˅˅˅˅ Choose your fighters and see statistic ˅˅˅˅˅˅˅˅˅</p>
-    </div>
+  
 
     <div>
         <form action="#" method="post">
